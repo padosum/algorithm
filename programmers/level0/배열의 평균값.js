@@ -1,4 +1,4 @@
 function solution(numbers) {
-  const sum = numbers.reduce((curr, acc) => curr + acc, 0);
-  return sum / numbers.length;
+  const sum = numbers.reduce((acc, curr) => curr + acc ,0)
+  return sum / numbers.length
 }
