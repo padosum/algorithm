@@ -23,7 +23,6 @@ const getFilePart = file => {
 };
 
 function solution(files) {
-  var answer = [];
   files.sort((a, b) => {
     const fileA = getFilePart(a);
     const fileB = getFilePart(b);
